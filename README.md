@@ -2,21 +2,18 @@
 
 CAS Client NodeJS implement，support CAS 2.0+ protocol.
 
-Totally restructured from my another project [nodejs-cas](https://npmjs.com/package/nodejs-cas).
+This project is forked from [connect-cas3](https://www.npmjs.com/package/connect-cas3) and have fixed some bugs.
 
-## VERSION
-
-1.1.4-beta
 
 ## Install
 
-    npm install connect-cas2
+    npm install node-cas2
             
 ## Quick start
 
 ```javascript
 var express = require('express');
-var ConnectCas = require('connect-cas2');
+var ConnectCas = require('node-cas2');
 var bodyParser = require('body-parser');
 var session = require('express-session');
 var cookieParser = require('cookie-parser');
@@ -247,11 +244,10 @@ In none-proxy mode, don't set options.paths.proxyCallback, when all middle-ware 
 
 ## CHANGE LOG
 
-#### 1.1.0-beta
-Add `cache proxy ticket` feature.
+#### 0.0.1
 
-#### 1.0.0-beta
-Restructured from [nodejs-cas](https://npmjs.com/package/nodejs-cas).
+* fork from [connect-cas3](https://www.npmjs.com/package/connect-cas3) and store use infomation to `req.session.user`
+
 
 ## More
 
