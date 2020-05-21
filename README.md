@@ -200,6 +200,10 @@ In some cases, not every servers you want to interact enabled cacheable PT, so y
 
 Every rule works like the `options.ignore`.
 
+#### options.defaultLastUrl {String} (Optional, defualt: '/')
+
+The default last url to redirect to when no record in session.
+
 ### METHOD
 
 #### casClient.core()

@@ -1,10 +1,11 @@
 {
   "name": "node-cas2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NodeJS implement of CAS(Central Authentication Service) client.",
   "main": "index.js",
   "scripts": {
-    "start": "node ./example"
+    "start": "node ./example",
+    "publish": "sh publish.sh"
   },
   "dependencies": {
     "lodash": "^4.13.1",
