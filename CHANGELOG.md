@@ -11,4 +11,4 @@
 ### Features
 
 * clone from https://www.npmjs.com/package/connect-cas3
-* store user info in session (eq.session.user) ([a00ae5a](https://github.com/knickknackfly/node-cas/commit/a00ae5ad8e14f08cafac3ffe93ba8df61099584f))
+* store user info in session (req.session.user) ([a00ae5a](https://github.com/knickknackfly/node-cas/commit/a00ae5ad8e14f08cafac3ffe93ba8df61099584f))
