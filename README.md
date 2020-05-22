@@ -246,12 +246,6 @@ In proxy mode, before you want to interact with your server, you need to request
 ### NONE-PROXY MODE
 In none-proxy mode, don't set options.paths.proxyCallback, when all middle-ware passed, that means the login succeed.
 
-## CHANGE LOG
-
-#### 0.0.1
-
-* fork from [connect-cas3](https://www.npmjs.com/package/connect-cas3) and store use infomation to `req.session.user`
-
 
 ## More
 

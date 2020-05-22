@@ -1,3 +1,8 @@
+## [0.0.3](https://github.com/knickknackfly/node-cas/compare/v0.0.2...v0.0.3) (2020-05-22)
+
+* change `req.session.user` to `req.session.username`	([f98b1a4](https://github.com/knickknackfly/node-cas/commit/f98b1a4800926cf28640bed3add85da3fce1cc50))
+
+
 ## 0.0.2 (2020-05-21)
 
 

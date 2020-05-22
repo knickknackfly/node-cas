@@ -1,6 +1,6 @@
 {
   "name": "node-cas2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NodeJS implement of CAS(Central Authentication Service) client.",
   "main": "index.js",
   "scripts": {
